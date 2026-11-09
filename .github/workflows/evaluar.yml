@@ -8,7 +8,7 @@ permissions:
 jobs:
   evaluar:
     # Reemplazado por el SHA de 40 caracteres y la etiqueta al publicar (scripts/publish.ts).
-    uses: eduardolulichac/qa-course-evaluator/.github/workflows/evaluate.yml@856bdce90741a17513428c14d27c4a44230c2d68 # v1.0.0
+    uses: eduardolulichac/qa-course-evaluator/.github/workflows/evaluate.yml@d218b117799984a7583bcdaa4b613f36843b6003 # v1.0.1
     with:
       exercise: reto-1-1-login
       key_id: ${{ vars.COURSE_KEY_ID }}
